@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6600454E17D3B641000AEC5A /* SetCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F084717D3B2BE00924DD5 /* SetCard.m */; };
+		6600455017D3B641000AEC5A /* SetCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F084017D3AECC00924DD5 /* SetCardDeck.m */; };
+		6600455217D3B641000AEC5A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F084117D3AECC00924DD5 /* Deck.m */; };
+		6600455417D3B641000AEC5A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F084317D3AECC00924DD5 /* Card.m */; };
+		6600455617D3B641000AEC5A /* SetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F083C17D3AE3D00924DD5 /* SetGame.m */; };
+		663F083817CAE3B600924DD5 /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 663F083717CAE3B600924DD5 /* CardCollectionViewCell.m */; };
+		6687BF8917D4CECF00B63E84 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 6687BF8817D4CECF00B63E84 /* pattern.png */; };
+		6697F39E17D9265600BFBCBC /* FoundSetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6697F39D17D9265600BFBCBC /* FoundSetsViewController.m */; };
+		6697F3A117D9267400BFBCBC /* RemainingSetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6697F3A017D9267400BFBCBC /* RemainingSetsViewController.m */; };
+		6697F3A217DA391C00BFBCBC /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BC22BF17D62D7C002220C9 /* Toast+UIView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6697F3A417DA751200BFBCBC /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 6697F3A317DA751200BFBCBC /* wood.png */; };
+		6697F3A617DA824E00BFBCBC /* wood2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6697F3A517DA824E00BFBCBC /* wood2.png */; };
 		66A0B7FA17C00FFB0042CFA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A0B7F917C00FFB0042CFA9 /* UIKit.framework */; };
 		66A0B7FC17C00FFB0042CFA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A0B7FB17C00FFB0042CFA9 /* Foundation.framework */; };
 		66A0B7FE17C00FFB0042CFA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A0B7FD17C00FFB0042CFA9 /* CoreGraphics.framework */; };
@@ -18,9 +30,31 @@
 		66A0B81017C00FFC0042CFA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A0B80F17C00FFC0042CFA9 /* Default-568h@2x.png */; };
 		66A0B81317C00FFC0042CFA9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A0B81117C00FFC0042CFA9 /* MainStoryboard.storyboard */; };
 		66A0B81617C00FFC0042CFA9 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A0B81517C00FFC0042CFA9 /* SetViewController.m */; };
+		66A0B81E17C054240042CFA9 /* SetCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A0B81D17C054240042CFA9 /* SetCardView.m */; };
+		66BC22C217D62DE0002220C9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BC22C117D62DE0002220C9 /* QuartzCore.framework */; };
+		66F4526117D7A04C004E15DD /* SetCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F4526017D7A04C004E15DD /* SetCollectionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		663F083617CAE3B600924DD5 /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
+		663F083717CAE3B600924DD5 /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
+		663F083C17D3AE3D00924DD5 /* SetGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SetGame.m; path = Model/SetGame.m; sourceTree = "<group>"; };
+		663F083D17D3AE3D00924DD5 /* SetGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SetGame.h; path = Model/SetGame.h; sourceTree = "<group>"; };
+		663F084017D3AECC00924DD5 /* SetCardDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SetCardDeck.m; path = Model/SetCardDeck.m; sourceTree = "<group>"; };
+		663F084117D3AECC00924DD5 /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		663F084217D3AECC00924DD5 /* SetCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SetCardDeck.h; path = Model/SetCardDeck.h; sourceTree = "<group>"; };
+		663F084317D3AECC00924DD5 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		663F084417D3AECC00924DD5 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		663F084517D3AECC00924DD5 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		663F084617D3B2BE00924DD5 /* SetCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SetCard.h; path = Model/SetCard.h; sourceTree = "<group>"; };
+		663F084717D3B2BE00924DD5 /* SetCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SetCard.m; path = Model/SetCard.m; sourceTree = "<group>"; };
+		6687BF8817D4CECF00B63E84 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		6697F39C17D9265600BFBCBC /* FoundSetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundSetsViewController.h; sourceTree = "<group>"; };
+		6697F39D17D9265600BFBCBC /* FoundSetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundSetsViewController.m; sourceTree = "<group>"; };
+		6697F39F17D9267400BFBCBC /* RemainingSetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemainingSetsViewController.h; sourceTree = "<group>"; };
+		6697F3A017D9267400BFBCBC /* RemainingSetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemainingSetsViewController.m; sourceTree = "<group>"; };
+		6697F3A317DA751200BFBCBC /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		6697F3A517DA824E00BFBCBC /* wood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood2.png; sourceTree = "<group>"; };
 		66A0B7F617C00FFB0042CFA9 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A0B7F917C00FFB0042CFA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66A0B7FB17C00FFB0042CFA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +71,13 @@
 		66A0B81217C00FFC0042CFA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		66A0B81417C00FFC0042CFA9 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
 		66A0B81517C00FFC0042CFA9 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		66A0B81C17C054240042CFA9 /* SetCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCardView.h; sourceTree = "<group>"; };
+		66A0B81D17C054240042CFA9 /* SetCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCardView.m; sourceTree = "<group>"; };
+		66BC22BE17D62D7C002220C9 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		66BC22BF17D62D7C002220C9 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		66BC22C117D62DE0002220C9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		66F4525F17D7A04C004E15DD /* SetCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetCollectionController.h; sourceTree = "<group>"; };
+		66F4526017D7A04C004E15DD /* SetCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetCollectionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66BC22C217D62DE0002220C9 /* QuartzCore.framework in Frameworks */,
 				66A0B7FA17C00FFB0042CFA9 /* UIKit.framework in Frameworks */,
 				66A0B7FC17C00FFB0042CFA9 /* Foundation.framework in Frameworks */,
 				66A0B7FE17C00FFB0042CFA9 /* CoreGraphics.framework in Frameworks */,
@@ -53,9 +95,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663F083B17D3AE1B00924DD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				663F084617D3B2BE00924DD5 /* SetCard.h */,
+				663F084717D3B2BE00924DD5 /* SetCard.m */,
+				663F084217D3AECC00924DD5 /* SetCardDeck.h */,
+				663F084017D3AECC00924DD5 /* SetCardDeck.m */,
+				663F084517D3AECC00924DD5 /* Deck.h */,
+				663F084117D3AECC00924DD5 /* Deck.m */,
+				663F084417D3AECC00924DD5 /* Card.h */,
+				663F084317D3AECC00924DD5 /* Card.m */,
+				663F083D17D3AE3D00924DD5 /* SetGame.h */,
+				663F083C17D3AE3D00924DD5 /* SetGame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		66A0B7ED17C00FFB0042CFA9 = {
 			isa = PBXGroup;
 			children = (
+				66BC22BE17D62D7C002220C9 /* Toast+UIView.h */,
+				66BC22BF17D62D7C002220C9 /* Toast+UIView.m */,
 				66A0B7FF17C00FFB0042CFA9 /* Set */,
 				66A0B7F817C00FFB0042CFA9 /* Frameworks */,
 				66A0B7F717C00FFB0042CFA9 /* Products */,
@@ -73,6 +134,7 @@
 		66A0B7F817C00FFB0042CFA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				66BC22C117D62DE0002220C9 /* QuartzCore.framework */,
 				66A0B7F917C00FFB0042CFA9 /* UIKit.framework */,
 				66A0B7FB17C00FFB0042CFA9 /* Foundation.framework */,
 				66A0B7FD17C00FFB0042CFA9 /* CoreGraphics.framework */,
@@ -83,11 +145,25 @@
 		66A0B7FF17C00FFB0042CFA9 /* Set */ = {
 			isa = PBXGroup;
 			children = (
+				6687BF8817D4CECF00B63E84 /* pattern.png */,
+				6697F3A517DA824E00BFBCBC /* wood2.png */,
+				6697F3A317DA751200BFBCBC /* wood.png */,
+				663F083B17D3AE1B00924DD5 /* Model */,
 				66A0B80817C00FFC0042CFA9 /* SetAppDelegate.h */,
 				66A0B80917C00FFC0042CFA9 /* SetAppDelegate.m */,
 				66A0B81117C00FFC0042CFA9 /* MainStoryboard.storyboard */,
+				663F083617CAE3B600924DD5 /* CardCollectionViewCell.h */,
+				663F083717CAE3B600924DD5 /* CardCollectionViewCell.m */,
+				66A0B81C17C054240042CFA9 /* SetCardView.h */,
+				66A0B81D17C054240042CFA9 /* SetCardView.m */,
 				66A0B81417C00FFC0042CFA9 /* SetViewController.h */,
 				66A0B81517C00FFC0042CFA9 /* SetViewController.m */,
+				66F4525F17D7A04C004E15DD /* SetCollectionController.h */,
+				66F4526017D7A04C004E15DD /* SetCollectionController.m */,
+				6697F39C17D9265600BFBCBC /* FoundSetsViewController.h */,
+				6697F39D17D9265600BFBCBC /* FoundSetsViewController.m */,
+				6697F39F17D9267400BFBCBC /* RemainingSetsViewController.h */,
+				6697F3A017D9267400BFBCBC /* RemainingSetsViewController.m */,
 				66A0B80017C00FFB0042CFA9 /* Supporting Files */,
 			);
 			path = Set;
@@ -136,6 +212,11 @@
 				CLASSPREFIX = Set;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "H Calvin Flegal";
+				TargetAttributes = {
+					66A0B7F517C00FFB0042CFA9 = {
+						DevelopmentTeam = 74LQPD6VP8;
+					};
+				};
 			};
 			buildConfigurationList = 66A0B7F117C00FFB0042CFA9 /* Build configuration list for PBXProject "Set" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -159,11 +240,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6687BF8917D4CECF00B63E84 /* pattern.png in Resources */,
 				66A0B80417C00FFB0042CFA9 /* InfoPlist.strings in Resources */,
 				66A0B80C17C00FFC0042CFA9 /* Default.png in Resources */,
 				66A0B80E17C00FFC0042CFA9 /* Default@2x.png in Resources */,
 				66A0B81017C00FFC0042CFA9 /* Default-568h@2x.png in Resources */,
 				66A0B81317C00FFC0042CFA9 /* MainStoryboard.storyboard in Resources */,
+				6697F3A417DA751200BFBCBC /* wood.png in Resources */,
+				6697F3A617DA824E00BFBCBC /* wood2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +258,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6697F3A217DA391C00BFBCBC /* Toast+UIView.m in Sources */,
+				6600454E17D3B641000AEC5A /* SetCard.m in Sources */,
+				6600455017D3B641000AEC5A /* SetCardDeck.m in Sources */,
+				6600455217D3B641000AEC5A /* Deck.m in Sources */,
+				6697F39E17D9265600BFBCBC /* FoundSetsViewController.m in Sources */,
+				6600455417D3B641000AEC5A /* Card.m in Sources */,
+				6600455617D3B641000AEC5A /* SetGame.m in Sources */,
 				66A0B80617C00FFC0042CFA9 /* main.m in Sources */,
+				66F4526117D7A04C004E15DD /* SetCollectionController.m in Sources */,
+				663F083817CAE3B600924DD5 /* CardCollectionViewCell.m in Sources */,
 				66A0B80A17C00FFC0042CFA9 /* SetAppDelegate.m in Sources */,
 				66A0B81617C00FFC0042CFA9 /* SetViewController.m in Sources */,
+				6697F3A117D9267400BFBCBC /* RemainingSetsViewController.m in Sources */,
+				66A0B81E17C054240042CFA9 /* SetCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +309,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -229,7 +325,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "34C0C2FC-11EF-4880-A614-7DA176E591B6";
+				SDKROOT = iphoneos6.1;
 			};
 			name = Debug;
 		};
@@ -245,7 +342,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -253,7 +351,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "34C0C2FC-11EF-4880-A614-7DA176E591B6";
+				SDKROOT = iphoneos6.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -261,10 +360,13 @@
 		66A0B81A17C00FFC0042CFA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: H Calvin Flegal (C43D29288D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Set/Set-Prefix.pch";
 				INFOPLIST_FILE = "Set/Set-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,10 +374,13 @@
 		66A0B81B17C00FFC0042CFA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Set/Set-Prefix.pch";
 				INFOPLIST_FILE = "Set/Set-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +404,7 @@
 				66A0B81B17C00FFC0042CFA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

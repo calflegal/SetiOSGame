@@ -11,8 +11,8 @@
 #define FRACTION_SIZE_PER_SYMBOL .30
 //height to width
 #define SYMBOL_ASPECT_RATIO 2
-#define STRIPE_SPACE 2
-#define STROKE_WIDTH 2
+#define STRIPE_SPACE 2.5
+#define STROKE_WIDTH 4
 #define CORNER_RADIUS 12
 #define SELECTED_LINE_WIDTH 10
 
